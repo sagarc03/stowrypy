@@ -1,0 +1,41 @@
+[project]
+name = "stowrypy"
+version = "1.0.0"
+description = "Python SDK for generating Stowry presigned URLs"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Sagar Chavan", email = "sagar.c.03@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["stowry", "presigned-url", "s3", "object-storage"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/sagarc03/stowrypy"
+Repository = "https://github.com/sagarc03/stowrypy"
+Issues = "https://github.com/sagarc03/stowrypy/issues"
+
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.14.13",
+]
