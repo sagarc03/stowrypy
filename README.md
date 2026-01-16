@@ -4,7 +4,7 @@
 [![Python versions][python-badge]][pypi-url]
 [![CI][ci-badge]][ci-url]
 [![codecov][codecov-badge]][codecov-url]
-[![License][license-badge]][license-url]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [pypi-badge]: https://img.shields.io/pypi/v/stowrypy
 [python-badge]: https://img.shields.io/pypi/pyversions/stowrypy
