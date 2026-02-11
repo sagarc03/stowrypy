@@ -7,7 +7,7 @@ license = "MIT"
 authors = [{ name = "Sagar Chavan", email = "sagar.c.03@gmail.com" }]
 requires-python = ">=3.10"
 dependencies = []
-keywords = ["stowry", "presigned-url", "s3", "object-storage"]
+keywords = ["stowry", "presigned-url", "s3", "object-storage", "django"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -23,6 +23,9 @@ classifiers = [
     "Typing :: Typed",
 ]
 
+[project.optional-dependencies]
+django = ["django>=5.2"]
+
 [project.urls]
 Homepage = "https://github.com/sagarc03/stowrypy"
 Repository = "https://github.com/sagarc03/stowrypy"
@@ -34,6 +37,8 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "django>=5.2",
+    "django-stubs>=5.2.0",
     "mypy>=1.19.1",
     "pytest>=9.0.2",
     "pytest-cov>=7.0.0",
